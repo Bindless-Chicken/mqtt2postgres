@@ -1,0 +1,15 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n        INSERT INTO values (time, topic, value)\n        VALUES (\n            NOW(),\n            $1,\n            $2\n        )\n        ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text",
+        "Float8"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "94ed93f6adea66792f80c816ee02e1ebf5b9d0074bd78b3d3c371f4bd4fbd77d"
+}
